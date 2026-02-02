@@ -1,9 +1,11 @@
 # -_crud_en_la_nube_con_bootstrap_5_-_Api_publica_- :. 
 # CRUD en la Nube con Bootstrap 5 + API Publica :
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f5b9bdc8-d8bf-429b-b868-2cd8cd3eae2d" />        
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f5b9bdc8-d8bf-429b-b868-2cd8cd3eae2d" />            
 
-<img width="2556" height="1044" alt="image" src="https://github.com/user-attachments/assets/f1f07037-4751-4b7f-84ca-a0be3ba80aeb" />    
+<img width="2552" height="1042" alt="image" src="https://github.com/user-attachments/assets/b7a7658f-aa34-43db-a9e3-7f738dded505" />    
+
+<img width="2556" height="1044" alt="image" src="https://github.com/user-attachments/assets/f1f07037-4751-4b7f-84ca-a0be3ba80aeb" />        
 
 A continuación tienes una **solución completa, clara y funcional en HTML + JavaScript usando Bootstrap 5**,  
 que implementa un **CRUD con tabla y menú**, consumiendo una **API pública gratuita y de código abierto en la nube**.
