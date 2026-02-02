@@ -11,30 +11,31 @@ const emailInput = document.getElementById("email");
 // =====================
 function loadUsers() {
     fetch(API_URL)
-    .then(res => res.json())
-    .then(data => {
-        table.innerHTML =  "";
-        data.slice(0, 5).array.forEach(user => {
-            table.innerHTML += `
-                <tr>
-                    <td>${user.id}</td>
-                    <td>${user.name}</td>
-                    <td>${user.email}</td>  
-                    <td>
-                        <button class="btn btn-warning btn-sm"
-                        onclick="editUser(${user.id}, '${user.name}', '${user.email}')">
-                        editar
-                        </button>
-                        <button class="btn btn-danger btn-sm"
-                        onclick="deleteUser(${user.id})">
-                        </button>
-                    </td>   
-                </tr>        
-            `;  
+        .then(res => res.json())
+        .then(data => {
+            table.innerHTML = "";
+            data.slice(0, 5).forEach(user => {
+                table.innerHTML += `
+                    <tr>
+                        <td>${user.id}</td>
+                        <td>${user.name}</td>
+                        <td>${user.email}</td>
+                        <td>
+                            <button class="btn btn-warning btn-sm"
+                                onclick="editUser(${user.id}, '${user.name}', '${user.email}')">
+                                Editar
+                            </button>
+                            <button class="btn btn-danger btn-sm"
+                                onclick="deleteUser(${user.id})">
+                                Eliminar
+                            </button>
+                        </td>
+                    </tr>
+                `;
+            });
         });
-    });
-}   
-    
+}
+
 // =====================
 // CREATE / UPDATE
 // =====================
